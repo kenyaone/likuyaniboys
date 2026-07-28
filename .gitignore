@@ -1,0 +1,38 @@
+# This repository is rooted at a cPanel home directory, which also holds SSL
+# private keys, the mail store, cPanel config and shell history. So: ignore
+# EVERYTHING by default, then allow back only the website itself.
+#
+# Do not replace the /* rule below with narrower patterns. It is what keeps
+# ssl/, mail/, etc/, .cpanel/ and .bash_history out of a public repository.
+
+/*
+
+# --- the website ---
+!/.gitignore
+!/README.md
+!/public_html/
+!/sitelib/
+!/sitedata/
+!/tools/
+
+# --- credentials and runtime state: never publish ---
+/sitedata/users.json
+/sitedata/_throttle.json
+/sitedata/_revisions/
+/sitedata/*.tmp.*
+
+# --- server-managed, not part of the site ---
+/public_html/cgi-bin/
+/public_html/.well-known/
+/public_html/error_log
+/public_html/php_errorlog
+
+# --- editor / OS noise ---
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# PHP error logs (server-generated, may leak paths)
+error_log
+php_errorlog

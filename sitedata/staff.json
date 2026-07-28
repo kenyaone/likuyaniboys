@@ -1,0 +1,43 @@
+{
+  "leadership": [
+    {
+      "id": "lead1",
+      "badge": "Principal",
+      "name": "Mr. Omulama George Muruka",
+      "title": "Principal",
+      "photo": "images/Mr_Omulama_Principal.jpeg",
+      "focus": "center 30%",
+      "quote": "\"At St. John the Baptist, we believe in nurturing not just scholars, but men of character. Our mission is to instill discipline, foster academic excellence, and build a strong moral foundation that will guide our students throughout their lives. Together, through hard work and dedication, we achieve success.\"",
+      "phone": "0722 232 528",
+      "email": "stjblikuyaniboys@gmail.com"
+    },
+    {
+      "id": "lead2",
+      "badge": "Deputy Principal",
+      "name": "Deputy Principal",
+      "title": "Academics",
+      "photo": "images/Deputy_Principal__2_.jpeg",
+      "focus": "center 20%",
+      "quote": "\"Education is the key that unlocks every door. At St. John's, we are committed to providing quality education that prepares our boys for the challenges of tomorrow. We focus on academic rigor while nurturing critical thinking and a love for learning that lasts a lifetime.\"",
+      "phone": "0722 645 854",
+      "email": "stjblikuyaniboys@gmail.com"
+    }
+  ],
+  "staff": [
+    { "id": "st1", "icon": "📚", "photo": "", "name": "Director of Studies", "role": "Academics Coordination" },
+    { "id": "st2", "icon": "🎓", "photo": "", "name": "Dean of Students", "role": "Student Affairs" },
+    { "id": "st3", "icon": "💼", "photo": "", "name": "School Bursar", "role": "Finance Office" },
+    { "id": "st4", "icon": "⛪", "photo": "", "name": "School Chaplain", "role": "Spiritual Guidance" }
+  ],
+  "bom_title": "Board of Management",
+  "bom": [
+    { "id": "bm1", "name": "Mr. Kisali Edward", "role": "BOM Chairman", "photo": "", "focus": "center" },
+    { "id": "bm2", "name": "Mr. Moses Shiundu", "role": "PA Chairman", "photo": "", "focus": "center" },
+    { "id": "bm3", "name": "Mr. Omulama George Muruka", "role": "Principal & Secretary", "photo": "images/Mr_Omulama_Principal.jpeg", "focus": "center 30%" }
+  ],
+  "key_contacts": [
+    { "id": "kc1", "name": "Mr. Omulama George Muruka", "role": "Principal", "photo": "images/Mr_Omulama_Principal.jpeg", "focus": "center 30%", "icon": "👤", "phone": "0722 232 528", "email": "" },
+    { "id": "kc2", "name": "Deputy Principal", "role": "Academics", "photo": "images/Deputy_Principal__2_.jpeg", "focus": "center 20%", "icon": "👤", "phone": "0722 645 854", "email": "" },
+    { "id": "kc3", "name": "School Bursar", "role": "Finance Office", "photo": "", "focus": "center", "icon": "💼", "phone": "", "email": "stjblikuyaniboys@gmail.com" }
+  ]
+}

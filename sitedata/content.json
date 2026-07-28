@@ -1,0 +1,190 @@
+{
+  "site": {
+    "title": "St. John the Baptist Likuyani Boys High School",
+    "name_line1": "St. John the Baptist",
+    "name_line2": "Likuyani Boys High School",
+    "motto": "Discipline, Effort and Success"
+  },
+  "hero": {
+    "badge": "Est. 1972 • Catholic Diocese of Kakamega",
+    "title_line1": "St. John the Baptist",
+    "title_line2": "Likuyani Boys High School",
+    "subtitle": "Nurturing young men of excellence through rigorous academics, moral formation, and spiritual growth since 1972.",
+    "motto": "\"Discipline, Effort and Success\"",
+    "btn_primary": "📝 Apply for Admission",
+    "btn_secondary": "Discover Our Story"
+  },
+  "stats": [
+    { "number": "50+", "label": "Years of Excellence" },
+    { "number": "124", "label": "2025 KCSE Candidates" },
+    { "number": "A-", "label": "Top Grade 2025" },
+    { "number": "12", "label": "Subjects Offered" }
+  ],
+  "about": {
+    "badge": "Our Legacy",
+    "heading": "A Tradition of Academic Excellence Since 1972",
+    "paragraphs": [
+      "St. John the Baptist Likuyani Boys High School was established in 1972 through the collaborative efforts of the Catholic Diocese of Eldoret (now Diocese of Kakamega), Chief Likwiro, and Rev. John Njenga.",
+      "The school began as a mixed day secondary school and has since evolved into a prestigious boys' boarding institution. In 2010, the school transitioned to an all-boys boarding school, strengthening our focus on developing well-rounded young men.",
+      "Located along the Kitale-Eldoret Highway in Likuyani Sub-County, Kakamega County, we continue to provide quality education guided by Catholic values."
+    ],
+    "features": [
+      { "icon": "📚", "label": "8-4-4 / CBE System" },
+      { "icon": "🏠", "label": "Full Boarding" },
+      { "icon": "⛪", "label": "Catholic Values" },
+      { "icon": "🔬", "label": "Modern Labs" }
+    ],
+    "image": "images/adminstration_block.jpeg",
+    "badge_number": "1972",
+    "badge_label": "Established"
+  },
+  "administration": {
+    "badge": "Leadership",
+    "title": "School Administration",
+    "subtitle": "Meet the dedicated leaders guiding St. John the Baptist Likuyani Boys High School towards excellence.",
+    "block_image": "images/adminstration_block.jpeg",
+    "block_caption": "Administration Block"
+  },
+  "vision": {
+    "badge": "Our Foundation",
+    "title": "Vision, Mission & Motto",
+    "cards": [
+      { "icon": "🎯", "heading": "Our Vision", "text": "\"Towards Excellence Through Discipline and Hard Work\"" },
+      { "icon": "🚀", "heading": "Our Mission", "text": "\"Committed to Providing Quality Education\"" },
+      { "icon": "📜", "heading": "Our Motto", "text": "\"Discipline, Effort and Success\"" }
+    ]
+  },
+  "academics": {
+    "badge": "Academics",
+    "title": "8-4-4 / CBE Curriculum",
+    "subtitle": "Following the KICD approved 8-4-4 system with Competency Based Education, preparing students for KCSE excellence and future careers.",
+    "subjects": [
+      "English", "Kiswahili", "Mathematics", "Biology", "Chemistry", "Physics",
+      "History", "Geography", "CRE", "Agriculture", "Business Studies", "Computer Studies"
+    ],
+    "results_title": "🏆 2025 KCSE Results Highlights",
+    "results": [
+      { "value": "A-", "label": "Top Grade" },
+      { "value": "3", "label": "A- Students" },
+      { "value": "74", "label": "Top Points" },
+      { "value": "124", "label": "Total Candidates" }
+    ]
+  },
+  "admissions": {
+    "badge": "Join Us",
+    "title": "Admissions 2026",
+    "subtitle": "Begin your journey to excellence. Follow our simple admission process.",
+    "steps": [
+      { "heading": "Receive Admission Letter", "text": "Through NEMIS placement or direct application to the school." },
+      { "heading": "Get Endorsement", "text": "Primary school Head Teacher must endorse your admission letter." },
+      { "heading": "Pay Fees to Bank", "text": "Deposit Term 1 fees directly to the school bank account. No cash payments accepted." },
+      { "heading": "Report on Opening Day", "text": "Come with all required documents, bank slip, and personal items on 6th January 2026." }
+    ],
+    "fees_title": "Fee Structure 2026",
+    "fees_subtitle": "Annual Breakdown",
+    "fees": [
+      { "item": "Boarding", "amount": "Ksh 30,035" },
+      { "item": "Medical Insurance (M.I)", "amount": "Ksh 2,000" },
+      { "item": "E.W & C", "amount": "Ksh 3,000" },
+      { "item": "L.T. & T", "amount": "Ksh 3,000" },
+      { "item": "Administration Costs", "amount": "Ksh 2,000" },
+      { "item": "P. Emoluments", "amount": "Ksh 5,000" },
+      { "item": "Activity", "amount": "Ksh 500" }
+    ],
+    "fees_total_label": "Annual Total",
+    "fees_total_amount": "Ksh 45,535",
+    "term_fees_title": "Per Term Payment",
+    "term_fees": [
+      { "item": "Term 1", "amount": "Ksh 21,535" },
+      { "item": "Term 2", "amount": "Ksh 14,000" },
+      { "item": "Term 3", "amount": "Ksh 10,000" }
+    ],
+    "fees_note": "Note: Special Meals Ksh 5,000 per year (Strictly medical cases only)",
+    "bank": {
+      "heading": "🏦 Bank Payment Details",
+      "bank_name": "Kenya Commercial Bank (KCB)",
+      "account_name": "St. John the Baptist Likuyani Boys High School",
+      "account_number": "110 345 6318",
+      "branch": "Eldoret West",
+      "paybill_heading": "📱 Lipa Karo (KCB PayBill)",
+      "paybill_business": "522123",
+      "paybill_account": "27913K [ADMNO] [SURNAME] [CLASS]"
+    }
+  },
+  "life": {
+    "badge": "Campus Life",
+    "title": "Student Life at St. John's",
+    "subtitle": "A vibrant boarding community fostering independence, friendships, and holistic development.",
+    "sports": [
+      { "icon": "⚽", "heading": "Football", "text": "Inter-school competitions" },
+      { "icon": "🏐", "heading": "Volleyball", "text": "Regional tournaments" },
+      { "icon": "🏀", "heading": "Basketball", "text": "School team" },
+      { "icon": "🏃", "heading": "Athletics", "text": "Track & field events" }
+    ],
+    "clubs": [
+      { "heading": "Debate Club", "text": "Public speaking & critical thinking" },
+      { "heading": "Drama Club", "text": "Performing arts & theatre" },
+      { "heading": "Science Club", "text": "Experiments & innovation" },
+      { "heading": "Music Club", "text": "Choir & instruments" },
+      { "heading": "Wildlife Club", "text": "Environmental conservation" },
+      { "heading": "YCS", "text": "Young Catholic Students" },
+      { "heading": "Journalism Club", "text": "School newsletter" },
+      { "heading": "Scouts", "text": "Leadership & service" }
+    ],
+    "facilities_title": "Our Facilities"
+  },
+  "calendar": {
+    "badge": "Calendar",
+    "title": "2026 Academic Calendar",
+    "terms": [
+      {
+        "name": "Term 1",
+        "dates": [
+          { "label": "Opening", "value": "6th January 2026" },
+          { "label": "Half Term", "value": "14th - 17th February" },
+          { "label": "Closing", "value": "3rd April 2026" }
+        ]
+      },
+      {
+        "name": "Term 2",
+        "dates": [
+          { "label": "Opening", "value": "5th May 2026" },
+          { "label": "Half Term", "value": "6th - 9th June" },
+          { "label": "Closing", "value": "7th August 2026" }
+        ]
+      },
+      {
+        "name": "Term 3",
+        "dates": [
+          { "label": "Opening", "value": "1st September 2026" },
+          { "label": "Half Term", "value": "17th - 20th October" },
+          { "label": "Closing", "value": "27th November 2026" }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Get in Touch",
+    "title": "Contact Us",
+    "location": "Kitale-Eldoret Highway\nLikuyani Sub-County\nKakamega County",
+    "phone_primary": "0722 232 528",
+    "phone_primary_label": "Principal",
+    "phone_secondary": "0722 645 854",
+    "phone_secondary_label": "Deputy Principal",
+    "email": "stjblikuyaniboys@gmail.com",
+    "postal": "P.O. Box 53\nSoy, Kenya"
+  },
+  "cta": {
+    "heading": "Ready to Join Our Community?",
+    "text": "Take the first step towards academic excellence and character development. Applications for 2026 are now open!",
+    "btn_primary": "📝 Apply Now",
+    "btn_secondary": "📞 Call Us Today"
+  },
+  "footer": {
+    "brand_text": "Nurturing young men of excellence through rigorous academics, moral formation, and spiritual growth since 1972.",
+    "brand_motto": "\"Discipline, Effort and Success\"",
+    "address_line": "P.O. Box 53, Soy",
+    "copyright": "© 2026 St. John the Baptist Likuyani Boys High School. All rights reserved.",
+    "diocese": "Catholic Diocese of Kakamega"
+  }
+}
