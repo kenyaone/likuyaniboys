@@ -138,7 +138,7 @@ function data_save(string $name, array $data): bool
         @unlink($tmp);
         return false;
     }
-    @chmod($tmp, 0640);
+    @chmod($tmp, 0644);
     if (!rename($tmp, $path)) {
         @unlink($tmp);
         return false;

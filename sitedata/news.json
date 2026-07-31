@@ -1,14 +1,21 @@
 {
-  "badge": "Latest",
-  "title": "News & Announcements",
-  "subtitle": "Stay updated with everything happening at St. John the Baptist Likuyani Boys High School.",
-  "items": [
-    {
-      "id": "n1",
-      "title": "Term 1 Opening Day",
-      "date": "2026-01-06",
-      "body": "All students report on 6th January 2026. Come with your admission letter, bank slip, and all required personal items. Reporting starts at 8:00 AM.",
-      "pinned": true
-    }
-  ]
+    "badge": "Latest",
+    "title": "News & Announcements",
+    "subtitle": "Stay updated with everything happening at St. John the Baptist Likuyani Boys High School.",
+    "items": [
+        {
+            "id": "ne0e07a2c0d",
+            "title": "END OF TERM 2 BREAK",
+            "date": "2026-07-29",
+            "body": "We thank God for the blessings and strength He has given us to come to the end of term 2 2026. \r\nwe expect the students back on  MONDAY 24/8/2026\r\n\r\nENJOY YOUR HOLIDAY 🙏🏾🙏🏾",
+            "pinned": true
+        },
+        {
+            "id": "n1",
+            "title": "Term 1 Opening Day",
+            "date": "2026-01-06",
+            "body": "All students report on 6th January 2026. Come with your admission letter, bank slip, and all required personal items. Reporting starts at 8:00 AM.",
+            "pinned": true
+        }
+    ]
 }
