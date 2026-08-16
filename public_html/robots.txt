@@ -17,7 +17,7 @@ User-agent: Bingbot
 Allow: /
 
 # Sitemap location
-Sitemap: https://likuyaniboys.edu.ke/sitemap.xml
+Sitemap: https://stjohnlikuyaniboys.sc.ke/sitemap.xml
 
 # Crawl delay (optional - helps prevent server overload)
 Crawl-delay: 1

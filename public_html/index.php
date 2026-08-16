@@ -37,13 +37,13 @@ $hasNews = count($newsItems) > 0;
     <meta name="keywords" content="Likuyani Boys, high school Kenya, boarding school, Catholic education, KCSE, Kakamega County">
     <meta name="author" content="St. John the Baptist Likuyani Boys High School">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://likuyaniboys.edu.ke/">
+    <link rel="canonical" href="https://stjohnlikuyaniboys.sc.ke/">
 
     <!-- Open Graph Tags -->
     <meta property="og:title" content="<?= e(cfg($c, 'site.title')) ?>">
     <meta property="og:description" content="Nurturing young men of excellence through rigorous academics, moral formation, and spiritual growth since 1972.">
-    <meta property="og:image" content="https://likuyaniboys.edu.ke/images/adminstration_block.jpeg">
-    <meta property="og:url" content="https://likuyaniboys.edu.ke/">
+    <meta property="og:image" content="https://stjohnlikuyaniboys.sc.ke/images/adminstration_block.jpeg">
+    <meta property="og:url" content="https://stjohnlikuyaniboys.sc.ke/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="<?= e(cfg($c, 'site.title')) ?>">
 
@@ -51,7 +51,7 @@ $hasNews = count($newsItems) > 0;
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="<?= e(cfg($c, 'site.title')) ?>">
     <meta name="twitter:description" content="A prestigious Catholic boys' boarding school in Kakamega County. Excellence in academics, character development, and spiritual growth.">
-    <meta name="twitter:image" content="https://likuyaniboys.edu.ke/images/adminstration_block.jpeg">
+    <meta name="twitter:image" content="https://stjohnlikuyaniboys.sc.ke/images/adminstration_block.jpeg">
 
     <!-- Additional SEO Meta Tags -->
     <meta name="language" content="English">
@@ -70,8 +70,8 @@ $hasNews = count($newsItems) > 0;
         "@context": "https://schema.org",
         "@type": "EducationalOrganization",
         "name": "<?= e(cfg($c, 'site.title')) ?>",
-        "url": "https://likuyaniboys.edu.ke",
-        "logo": "https://likuyaniboys.edu.ke/assets/logo.png",
+        "url": "https://stjohnlikuyaniboys.sc.ke",
+        "logo": "https://stjohnlikuyaniboys.sc.ke/assets/logo.png",
         "description": "A prestigious Catholic boys' boarding school in Kakamega County, Kenya. Excellence in academics, moral formation, and spiritual growth since 1972.",
         "founded": "1972",
         "address": {
@@ -85,13 +85,13 @@ $hasNews = count($newsItems) > 0;
         "telephone": ["0722232528", "0722645854"],
         "email": "stjblikuyaniboys@gmail.com",
         "sameAs": [],
-        "image": "https://likuyaniboys.edu.ke/images/adminstration_block.jpeg",
+        "image": "https://stjohnlikuyaniboys.sc.ke/images/adminstration_block.jpeg",
         "slogan": "Discipline, Effort and Success",
         "potentialAction": {
             "@type": "ApplyAction",
             "target": {
                 "@type": "EntryPoint",
-                "urlTemplate": "https://likuyaniboys.edu.ke/#admissions"
+                "urlTemplate": "https://stjohnlikuyaniboys.sc.ke/#admissions"
             }
         },
         "educationalLevel": "Secondary",
@@ -115,19 +115,19 @@ $hasNews = count($newsItems) > 0;
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://likuyaniboys.edu.ke"
+                "item": "https://stjohnlikuyaniboys.sc.ke"
             },
             {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "About",
-                "item": "https://likuyaniboys.edu.ke/#about"
+                "item": "https://stjohnlikuyaniboys.sc.ke/#about"
             },
             {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Admissions",
-                "item": "https://likuyaniboys.edu.ke/#admissions"
+                "item": "https://stjohnlikuyaniboys.sc.ke/#admissions"
             }
         ]
     }
