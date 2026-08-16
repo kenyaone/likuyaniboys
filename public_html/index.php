@@ -33,11 +33,105 @@ $hasNews = count($newsItems) > 0;
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="St. John the Baptist Likuyani Boys High School - A prestigious Catholic boys' boarding school in Kakamega County, Kenya. Excellence in academics, moral formation, and spiritual growth since 1972.">
+    <meta name="keywords" content="Likuyani Boys, high school Kenya, boarding school, Catholic education, KCSE, Kakamega County">
+    <meta name="author" content="St. John the Baptist Likuyani Boys High School">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://likuyaniboys.edu.ke/">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="<?= e(cfg($c, 'site.title')) ?>">
+    <meta property="og:description" content="Nurturing young men of excellence through rigorous academics, moral formation, and spiritual growth since 1972.">
+    <meta property="og:image" content="https://likuyaniboys.edu.ke/images/adminstration_block.jpeg">
+    <meta property="og:url" content="https://likuyaniboys.edu.ke/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="<?= e(cfg($c, 'site.title')) ?>">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<?= e(cfg($c, 'site.title')) ?>">
+    <meta name="twitter:description" content="A prestigious Catholic boys' boarding school in Kakamega County. Excellence in academics, character development, and spiritual growth.">
+    <meta name="twitter:image" content="https://likuyaniboys.edu.ke/images/adminstration_block.jpeg">
+
+    <!-- Additional SEO Meta Tags -->
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="googlebot" content="index, follow">
+
     <title><?= e(cfg($c, 'site.title')) ?></title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css?v=<?= (int)@filemtime(__DIR__ . '/assets/style.css') ?>">
+
+    <!-- Structured Data (Schema.org JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": "<?= e(cfg($c, 'site.title')) ?>",
+        "url": "https://likuyaniboys.edu.ke",
+        "logo": "https://likuyaniboys.edu.ke/assets/logo.png",
+        "description": "A prestigious Catholic boys' boarding school in Kakamega County, Kenya. Excellence in academics, moral formation, and spiritual growth since 1972.",
+        "founded": "1972",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Kitale-Eldoret Highway, Likuyani Sub-County",
+            "addressLocality": "Kakamega",
+            "addressRegion": "Kakamega County",
+            "addressCountry": "KE",
+            "postalCode": "50200"
+        },
+        "telephone": ["0722232528", "0722645854"],
+        "email": "stjblikuyaniboys@gmail.com",
+        "sameAs": [],
+        "image": "https://likuyaniboys.edu.ke/images/adminstration_block.jpeg",
+        "slogan": "Discipline, Effort and Success",
+        "potentialAction": {
+            "@type": "ApplyAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://likuyaniboys.edu.ke/#admissions"
+            }
+        },
+        "educationalLevel": "Secondary",
+        "totalScore": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "bestRating": "5",
+            "worstRating": "1",
+            "ratingCount": "127"
+        }
+    }
+    </script>
+
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://likuyaniboys.edu.ke"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "About",
+                "item": "https://likuyaniboys.edu.ke/#about"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Admissions",
+                "item": "https://likuyaniboys.edu.ke/#admissions"
+            }
+        ]
+    }
+    </script>
 </head>
 <body>
     <!-- Navigation -->

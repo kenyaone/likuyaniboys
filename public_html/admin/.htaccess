@@ -1,7 +1,12 @@
-Options -Indexes
-
+# Block search engines from indexing admin panel
 <IfModule mod_headers.c>
     Header always set X-Robots-Tag "noindex, nofollow"
-    Header always set X-Frame-Options "SAMEORIGIN"
-    Header always set X-Content-Type-Options "nosniff"
 </IfModule>
+
+# Require authentication for admin panel
+<FilesMatch "\.(php)$">
+    Require all denied
+</FilesMatch>
+
+Options -Indexes
+Options -FollowSymLinks

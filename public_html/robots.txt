@@ -1,0 +1,24 @@
+# Allow search engines to crawl the site
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /*.php$
+Disallow: /*?*
+Disallow: /*&
+Disallow: /.well-known/
+
+# Specific rules for Google
+User-agent: Googlebot
+Allow: /
+
+# Specific rules for Bing
+User-agent: Bingbot
+Allow: /
+
+# Sitemap location
+Sitemap: https://likuyaniboys.edu.ke/sitemap.xml
+
+# Crawl delay (optional - helps prevent server overload)
+Crawl-delay: 1
+Request-rate: 1/5s
